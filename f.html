@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Attendance System</title>
+</head>
+
+<body>
+    <header>
+        <h1>Attendance System</h1>
+    </header>
+    <main>
+        <section class="attendance-form">
+            <h2>Mark Attendance</h2>
+            <form id="attendanceForm">
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+                <label for="attendanceStatus">Attendance Status:</label>
+                <select id="attendanceStatus" name="attendanceStatus">
+                    <option value="present">Present</option>
+                    <option value="absent">Absent</option>
+                </select>
+                <button type="button" onclick="markAttendance()">Submit</button>
+            </form>
+        </section>
+        <section class="attendance-list">
+            <h2>Attendance List</h2>
+            <ul id="attendanceList">
+                <!-- Attendance list will be populated dynamically using JavaScript -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Attendance System</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
